@@ -1,5 +1,6 @@
 <?php
 
+use App\Helpers\HelperClass;
 use App\Http\Controllers\Admin\ArticlesController as AdminArticlesController;
 use App\Http\Controllers\Admin\UsersController;
 use App\Http\Controllers\Articles\ArticlesController;

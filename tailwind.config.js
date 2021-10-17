@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
     purge: [
@@ -29,17 +30,7 @@ module.exports = {
                     800: '#0a6553',
                     900: '#053c31',
                 },
-                gray: {
-                    100: '#f9fafb',
-                    200: '#dfdfdf',
-                    300: '#cbcbcb',
-                    400: '#b2b2b2',
-                    500: '#989898',
-                    600: '#7e7e7e',
-                    700: '#636363',
-                    800: '#484a4a',
-                    900: '#343636',
-                },
+                gray: colors.coolGray,
                 twitter: '#00aaec',
                 facebook: '#4267b2',
                 linkedin: '#2977c9',
